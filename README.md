@@ -1,8 +1,5 @@
-# Getting Started with Create React App
+# React & XSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## XSS
 React generally protects you agains XSS unless you're doing something problematic like passing unsafe data into `dangerous` HTML attributes like `href`.
 In [App.js](./src/App.js) you'll find an illustration of exactly that. In order to play with it:
 - clone the repo: `git clone https://github.com/veryriskyrisk/react-simple-xss.git`
